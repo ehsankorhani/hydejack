@@ -1,12 +1,16 @@
 console.log('External file........................');
 
-// document.onreadystatechange = function(){
-//   if(document.readyState === 'complete'){
-//   }
-// }
+/*document.onreadystatechange = function(){
+   if(document.readyState === 'complete'){
+   }
+}*/
 
 
-document.onload = function() {
+/*document.onload = function() {
+
+}*/
+
+window.addEventListener("load", function(){
   console.log('skuid:', skuid);
   console.log('models:', skuid.model.map());
   
@@ -18,4 +22,4 @@ document.onload = function() {
     console.log('teamMemberViewData:', teamMemberViewData);
   else
     console.log('teamMemberViewModel:', teamMemberViewModel);
-}
+});
