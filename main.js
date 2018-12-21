@@ -6,3 +6,5 @@ var models = skuid.model.map(),
 
 if (teamMemberViewData.length > 0)
   console.log('teamMemberViewData:', teamMemberViewData);
+else
+  console.log('teamMemberViewModel:', teamMemberViewModel);
