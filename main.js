@@ -10,16 +10,23 @@ console.log('External file........................');
 
 }*/
 
-window.addEventListener("load", function(){
-  console.log('skuid:', skuid);
-  console.log('models:', skuid.model.map());
-  
-  var models = skuid.model.map(),
-  teamMemberViewModel = models.TeamMember_view || {},
-  teamMemberViewData = teamMemberViewModel.data || [];
+/*window.addEventListener("load", function(){
 
-  if (teamMemberViewData.length > 0)
-    console.log('teamMemberViewData:', teamMemberViewData);
-  else
-    console.log('teamMemberViewModel:', teamMemberViewModel);
-});
+});*/
+
+(function(skuid){
+	var $ = skuid.$;
+	$(document.body).one('pageload',function(){
+    console.log('skuid:', skuid);
+    console.log('models:', skuid.model.map());
+    
+    var models = skuid.model.map(),
+    teamMemberViewModel = models.TeamMember_view || {},
+    teamMemberViewData = teamMemberViewModel.data || [];
+  
+    if (teamMemberViewData.length > 0)
+      console.log('teamMemberViewData:', teamMemberViewData);
+    else
+      console.log('teamMemberViewModel:', teamMemberViewModel);
+	});
+})(skuid);
