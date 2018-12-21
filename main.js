@@ -15,11 +15,8 @@ console.log('External file........................');
 });*/
 
 (function(skuid){
-	var $ = skuid.$;
-	$(document.body).one('pageload',function(){
-    console.log('skuid:', skuid);
-    console.log('models:', skuid.model.map());
-    
+  var $ = skuid.$;
+  $(document.body).one('pageload',function(){  
     var models = skuid.model.map(),
     teamMemberViewModel = models.TeamMember_view || {},
     teamMemberViewData = teamMemberViewModel.data || [];
@@ -28,5 +25,5 @@ console.log('External file........................');
       console.log('teamMemberViewData:', teamMemberViewData);
     else
       console.log('teamMemberViewModel:', teamMemberViewModel);
-	});
+  });
 })(skuid);
