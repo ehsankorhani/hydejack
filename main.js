@@ -1,17 +1,21 @@
 console.log('External file........................');
 
-document.onreadystatechange = function(){
-  if(document.readyState === 'complete'){
-    console.log('skuid:', skuid);
-    console.log('models:', skuid.model.map());
-    
-    var models = skuid.model.map(),
-    teamMemberViewModel = models.TeamMember_view || {},
-    teamMemberViewData = teamMemberViewModel.data || [];
+// document.onreadystatechange = function(){
+//   if(document.readyState === 'complete'){
+//   }
+// }
 
-    if (teamMemberViewData.length > 0)
-      console.log('teamMemberViewData:', teamMemberViewData);
-    else
-      console.log('teamMemberViewModel:', teamMemberViewModel);
-    }
+
+document.onload = function() {
+  console.log('skuid:', skuid);
+  console.log('models:', skuid.model.map());
+  
+  var models = skuid.model.map(),
+  teamMemberViewModel = models.TeamMember_view || {},
+  teamMemberViewData = teamMemberViewModel.data || [];
+
+  if (teamMemberViewData.length > 0)
+    console.log('teamMemberViewData:', teamMemberViewData);
+  else
+    console.log('teamMemberViewModel:', teamMemberViewModel);
 }
