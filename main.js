@@ -2,6 +2,9 @@ console.log('External file........................');
 
 document.onreadystatechange = function(){
   if(document.readyState === 'complete'){
+    console.log('skuid:', skuid);
+    console.log('models:', skuid.model.map());
+    
     var models = skuid.model.map(),
     teamMemberViewModel = models.TeamMember_view || {},
     teamMemberViewData = teamMemberViewModel.data || [];
