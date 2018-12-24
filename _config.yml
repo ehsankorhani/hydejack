@@ -1,10 +1,7 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your site.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://ehsankorhani.com
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -14,41 +11,29 @@ url:                   https://domain.tld
 # e.g. `/hydejack`.
 baseurl:               '/hydejack'
 
-# Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
+
 lang:                  en
-
-# The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
-
-# A short description (~150 chars) of the page used for the meta description tag.
-# Can use markdown, but no more than one paragraph (enforced by `>`)
+title:                 Code Better
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
-
-# A shorter description for the sidebar.
+  "Keep dreaming big and keep training hard".
 tagline:               >
   "In search for the meaning".
-
-# A list of keywords for your blog
-keywords:              []
+keywords:              ["programming", "javascript", "c#", "asp.net", "react", "security", "node.js"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/icons/icon.png
 
-# This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <Ehsan> <Korhani>
+  email:               <ehsan.korhani@outlook.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
+  © 2019. All rights reserved.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -58,10 +43,10 @@ copyright:             >
 #   - title:             Cookies Policy
 #     href:              /cookies-policy/
 
-# Format of the permalinks
+# Format of the permalinks (/blog/:year/:month/:day/:title)
 permalink:             /:categories/:year-:month-:day-:title/
 
-# Pagination configuration (used by the `blog` layout)
+# Pagination configuration (used by the `blog` layout) (/blog/page:num/)
 paginate:              5
 paginate_path:         /page-:num/
 
