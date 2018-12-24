@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:             ehsan
-  name:              <Ehsan> <Korhani>
-  email:             <ehsan.korhani@outlook.com>
+  name:              Ehsan Korhani
+  email:             ehsan.korhani@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -34,8 +34,8 @@ author1:             ehsan
   # Rearrange to change the order in which they appear
   social:
     #twitter:         <username>
-    github:          <ehsankorhani>
-    email:           <ehsan.korhani@outlook.com>
+    github:          ehsankorhani
+    email:           ehsan.korhani@outlook.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -64,7 +64,7 @@ author1:             ehsan
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        <ehsankorhani>
+    linkedin:         ehsankorhani
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
