@@ -1,7 +1,7 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:             ehsan
+author1:             
   name:              Ehsan Korhani
   email:             ehsan.korhani@outlook.com
 
@@ -64,7 +64,7 @@ author1:             ehsan
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:         ehsankorhani
+    linkedin:          in/ehsankorhani
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
