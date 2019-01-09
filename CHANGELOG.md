@@ -533,7 +533,7 @@ That being said, you should be aware of these (small) breaking changes:
   ```yml
   ---
   title: External
-  menu: true
+  menu: false
   redirect_to: https://example.com/
   ---
   ```
